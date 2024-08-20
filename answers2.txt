@@ -1,0 +1,104 @@
+L3T04
+
+========= Task 1: Answers =========
+
+Q1: Briefly describe possible quality standards that might be used for these 
+real-world products:
+
+a. Mobile game app
+-> For mobile game app development quality standards should focus on usability 
+since the user experience is most important, portability since the game should
+function on multiple devices, and efficiency since the user experience is 
+severely harmed if the game does not work properly. 
+
+
+b. Banking application
+-> For a banking application quality standards should focus on security and 
+reliability since it is highly important to protect sensitive financial data and
+to reliably function since users depend on it for financial transactions.
+Furthermore, understandability is also relevant to make sure the process is as
+easy and understandable as possible to the user, who might not be very familiar
+with financial concepts.
+
+
+c. Database for a medical organisation
+-> For a database for a medical organisation quality standards should focus on 
+security and reliability as well since protecting sensitive patient information
+and allowing reliable access to data is essential. Furthermore, adaptability 
+should also be taken into account since healthcare regulations could change. 
+
+
+Q2: Explain why a high-quality software process should lead to high-quality 
+software products. Discuss possible problems with this system of quality 
+management.
+
+A: There are several reasons why a high-quality software process should lead 
+to high-quality software products:
+- Issues can be detected early. Testing at various stages of the cycle helps
+identify defects early. Same holds for code reviews and inspections.
+- The final product is aligning with established standards as well as 
+stakehholder requirements.
+- The process ensures that each step is carried out consistently and correctly.
+- Using metrics helps to monitor progress and to identify areas for 
+improvement. 
+- High quality processes encompass proper documentation and risk management 
+strategies. 
+
+Possible problems could be:
+- Sticking too much to the process and not being agile enough.
+- Tending to use a one size fits all apporach and not adjusting the process
+enough to the special requirements.
+- High quality processes could become cost and time intense. E.g. you always 
+need two developers for paired testing. 
+- High quality processes could slow down the development process. 
+- The process might not be regularly reviewed and simply relied on. 
+- The process might neglect the human element and hinder innovation. 
+
+
+Q3: Explain why program inspections are an effective technique for discovering 
+errors in a program. What types of errors are unlikely to be discovered 
+through inspections?
+
+A: Inspections are effective for multiple reasons:
+- Inspections are manual, meaning going through code line by line. 
+This makes sure errors that automated tools might miss could be found. 
+- Inspections are done by multiple people. Thus, if one person misses an error,
+it will most likely be found by another person. 
+- Inspection can be done at any point of the development process for which 
+errors can be detected early on. 
+- This can reduce the debugging time.
+- Methods such as peer reviews not only help to identify errors early but to 
+help the whole team to improve.
+
+Errors that are unlikely to be discovered are:
+- any error that needs the program to run. E.g. errors that manifest only during 
+execution
+- when you inspect only one component, this component might work on its own but
+does not necessarily has to work with the other components when integrated.
+- it does not inspect the user experience or the user perspective. E.g. 
+something might not be understandable from a user perspective, even if the code
+is functioning.
+- Inspections might miss missing components. E.g. all components might work but
+some are missing harming the overall functionality.
+- Inspections are no real world testing - thus errors could be overlooked that 
+only appear under real world conditions. 
+
+
+Q4: Why is it difficult to validate the relationships between internal 
+product attributes and external attributes?
+
+A: External attributes such as usability, reliability, or performance are hard 
+to measure and are often non-tangible. Thus, we make use of internal attributes 
+such as code complexity, module cohesion, or number of code lines. 
+However, validating this relationship is difficult since 
+- external factors are typically influenced by a combination of multiple 
+internal factors
+- As mentioned, many external factors are subjective and are dependent on the 
+user perspective.
+- measuring internal factors does not always capture the external factor 
+holistically.
+- internal factors are typically static while external factors are typically 
+dynamic which leads to difficulties validating the relationship.
+- Internal attributes can be interdependent and changing one attribute might 
+affect the other. Same hold for external attributes - improving one might 
+harm the other. 

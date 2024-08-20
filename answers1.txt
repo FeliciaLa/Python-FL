@@ -1,0 +1,86 @@
+L3T03
+
+========= Task 1: Answers =========
+
+Q1: How does the waterfall methodology differ from agile?
+
+A: 
+1. The waterfall methodology follows a linear and sequential approach. 
+Consequently, it is quite rigid. In contrast, the agile methodology focusses on
+interative development. Consequently, this method is more flexible.
+
+2. The waterfall methodology is used when the project requirements are clear 
+from the beginning and unlikely to change. In contrast, the agile approach can
+better adapt to evolving requirements and changes during the development process.
+
+3. The waterfall methodology delivers the project once it is fully developed. 
+In contrast, the agile method allows for a first prototype to be delivered 
+and to be continuously worked on while taking into account user feedback.
+
+4. The waterfall model takes in client/user feedback at the beginning and end of 
+the process. In contrast, the agile model gathers it continuously.
+
+5. The waterfall model has a higher risk to discover errors later on in the 
+development process. In contrast, the agile model allows errors to be discovered 
+more quickly. 
+
+
+Q2: Reread “Agile Manifesto”. Can you think of a situation in which one or more 
+of the four “values” could get a software team into trouble?
+
+A: Prioritising a working software over comprehensive documentation could lead 
+to difficulties later on in the development process when processes are being 
+reevaluated or are trying to be understood by other team members. In this case, 
+the software might be working but lacks the necessary documentation to be 
+properly read and understood by the whole team. 
+This could become a particular problem if one of the team members had left and/or
+new features need to be built on the existing model. 
+
+
+Q3: Describe the agile method in your own words.
+
+A: The agile method is an approach to software engineering that prioritises 
+flexibility, an interative process, and collaboration. It focusses on 
+breaking down the development process into multiple, small parts and on 
+develivering first results quickly. It works very close with the user and 
+implements user or client feedback quickly. It contrasts a linear approach and 
+therefore allows for a rapid adaption to changing requirements. 
+In sum, its goal is to quickly present a working software through customer 
+collaboration, responding to change, and focussing on individuals and 
+interactions.
+
+
+Q4: Why do you think requirements change so much?
+
+A: I believe there are multiple reasons why requirments change so much: 
+- Business needs can change rapidly. This can be caused by changing markets, 
+changing demand, internal changes (e.g. a change in personell), 
+or any other external developments (e.g. changing regulations)
+- The requirments might be unclear in the beginning and only develop during the 
+process.
+- Technological advancements might change requirements too.
+- Depending on what the users are saying, requirments can also change. E.g. if 
+the client changes his mind or if the user is not satisfied. 
+- During the devlopment process, the team might come up with new ideas that 
+were not thought about before.
+
+
+Q5: Explain why first testing project features helps the programmer to develop 
+a better understanding of the system requirements.
+
+A: Pre-task unit tests: 
+It helps the programmer to be clearer about the requirements. Writing tests 
+forces programmers to think clearly about how is should work but also about how 
+it should NOT work. Translating this into multiple test cases helps to 
+make the process less abstract. 
+Furthermore, considering scenarios in which the program might fail can help to 
+uncover gaps that can be early on clarified with the client. 
+
+Iterative development: 
+Testing only project features iteratively can then help to get client and user
+feedback quickly. Thus, the programm can be validated instantly. 
+From here, the software can be gradually improved and project features one by 
+one refined. 
+
+Overall, first testing project features helps to truly capture the requirements
+and aligning the process with those. 

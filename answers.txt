@@ -1,0 +1,70 @@
+L3T02
+
+========= Task 1: Answers =========
+
+Question 1:
+Suggest which generic software model will be most appropriate for the 
+development of the following systems. Give reasons for your answer.
+
+a. A system to control anti-lock braking in a car
+    -> The Waterfall Modell: 
+        - safety is extremely important in this instance
+        - requires rigorous testing -> can be ensured at every step
+        - the requirements are clear and there should be no need 
+        for a lot of change
+
+b. A virtual reality system to support software maintenance
+    -> Incremental Development Model:
+        - the process seems to be quite complex and therefore needs iterative
+        development
+        - the requirements are eveolving e.g. through new features 
+        or new user demands
+        - Incremental Development allows to build a prototype allowing 
+        early user testing
+
+c. A university accounting system that replaces an existing system
+    -> Reuse Oriented Software Engineering Model    
+        - Since there is already an existing system in place, chances are high
+        that components can be reused to safe time and costs
+        - Using this model still allows for customisation according to specific
+        university requirements
+
+d. An interactive travel planning system that helps users plan trips 
+with the lowest environmental impact
+    -> Incremental Model
+        - Since the system is interactive and user facing it is essential to
+        iteratively develop the software 
+        - Calculating the environmental impact can be complex and might change 
+        over time. Therefore, iterativ development processes can allow to better 
+        handle complex and changing requirements. 
+
+Question 2: 
+Why do you think incremental development is the most effective approach 
+for developing business software systems?
+
+1. Incremental development allows for flexibility when requirements change. 
+For a business software this is essential since circumstance such as regulations 
+but also customer or user demands can change. 
+
+2. By using incremental development businesses can test their software early on 
+and improve it gradually while gathering user feedbach, meaning they can work 
+with a prototype and do not have to wait for the finished product. 
+
+3. In this context, if a business runs out of budget they also still have at 
+least a prototype to work with.
+
+4. They can continuously improve it whenever something internally or externally 
+changes
+
+
+Question 3:
+Look at the diagram showing the reuse-oriented software engineering process 
+above. Why do you think it is necessary to have two separate requirements 
+engineering steps in this process?
+
+-> It is necessary to have two seperate requirements engineering steps in this 
+process since the first one looks at the requirements in general (You need to 
+specify what you need) and the second one looks at the requirements after the 
+component analysis, meaning after having evaluated which components are already 
+there and what is needed after. Thus, the component analysis changes the 
+requirements and therefore two requirement engineering steps are needed. 

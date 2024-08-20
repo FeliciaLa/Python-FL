@@ -1,0 +1,35 @@
+L2T04: Compulsory Task 1
+
+1. Define the following terms:
+
+Data = Data are raw facts such as customer names or telephone numbers. They don't have meaning unless they are organised in some logical manner.
+Field = A field is a character or group of characters that have a specific meaning and is used to define and store data.
+Record = A record is a logically connected set of one or more fields that describes a person, place, or thing.
+File = A file is a collection of related records.
+
+2. What is a DBMS and what are its advantages?:
+
+A DBMS is a database management system. It is a collection of programs, which works to manage the database structure,
+and control access to the data stored in the database. 
+Thereby, it is an intermediary between the user and the database.
+Its advantages are:
+- better data sharing
+- improved data integration
+- minimised data inconsistency 
+- improved data access
+- improved decision making 
+- increased end user productivity
+
+3. What is the difference between data and information?
+
+Data are raw facts. Raw data therefore has not yet been processed to reveal its meaning. 
+Information is the result of processing raw data to reveal its meaning.
+
+4. What is metadata?
+
+Metadata is data that provides information about other data. 
+It helps to describe the content, context, quality, condition, and other characteristics of data. 
+
+5.e. How many records does the file contain?: 4
+5.f. How many fields are there per record?: 5
+
