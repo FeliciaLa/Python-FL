@@ -37,6 +37,6 @@ for item in menu:
     item_stock = stock[item]
     item_price = price_in_euro[item]
     total_item_value = item_stock * item_price
-    total_stock_worth += item_value
+    total_stock_worth += total_item_value
 
 print("The total stock value is: {} euros".format(total_stock_worth))
