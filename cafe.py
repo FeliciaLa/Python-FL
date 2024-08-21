@@ -17,13 +17,18 @@
 
 # Python Code
 
+# Define the menu with 4 items
 menu = ['coffee', 'croissant', 'baguette', 'milk']
+
+# Define the stock level for each item
 stock = {
         "coffee": 3,
         "croissant": 2,
         "baguette": 5,
         "milk": 1
         }
+
+# Define the price of each item in euros
 price_in_euro = {
         "coffee": 2,
         "croissant": 3,
@@ -31,12 +36,15 @@ price_in_euro = {
         "milk": 2
         }
 
+# Initialise the total_stock_worth variable
 total_stock_worth = 0
 
+# Loop through each item in the menu to calculate the total stock value
 for item in menu:
     item_stock = stock[item]
     item_price = price_in_euro[item]
     total_item_value = item_stock * item_price
     total_stock_worth += total_item_value
 
+# Print the total stock worth in euros
 print("The total stock value is: {} euros".format(total_stock_worth))
